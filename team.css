@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    
 }
 
 body {
@@ -26,18 +27,39 @@ body {
 
 }
 #nav-bar h3{
-    padding: 10px;
+    padding: 10px;display: inline-block;text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #nav-bar h3:hover,h3:active{
     color: rgb(255, 114, 62);
 }
+#nav-bar h4{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+    color: inherit;
+}
+.h4left a:link{color: honeydew;}
+.h4left , .h4right{
+    color: aqua;
+    transition: transform 1s ease;
+}
+#nav-bar:hover .h4left{
+    transform: translateX(-200%);
+    color: rgb(251, 255, 38);
+}
+#nav-bar:hover .h4right{
+    transform: translateX(200%);
+    color: rgb(251, 255, 38);
+}
 
 img{
     width:280px;
     height:350px ;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .students img{
@@ -96,13 +118,24 @@ img{
     text-align: center;
     margin-right: 100px;
 }
-.container1 , .container2 , .container3{
+.container1 , .container2 , .container3 ,
+ .container4 , .container5, .container6 , 
+ .container7 , .container8 , .container9 , 
+ .container10 , .container11 , .container12,
+ .container13 , .container14 , .container15,
+ .container16 , .container17 , .container18,
+ .container19 , .container20 , .container21
+ {
     display: inline-block;
     padding: 20px;margin: 50px;margin-top: 10px;
 }
 
 
-.text1 , .text2 , .text3 {
+.text1 , .text2 , .text3 , .text4 , .text5 , .text6 , 
+.text7 , .text8 , .text9 , .text10 , .text11 , .text12,
+.text13 , .text14 , .text15 , .text16 , .text17 , .text18,
+.text19 , .text20 , .text21
+{
     color: black;
     font-size: 20px;
     position: relative;
@@ -115,7 +148,11 @@ img{
 
   }
 
-  .overlay1 , .overlay2 , .overlay3{
+  .overlay1 , .overlay2 , .overlay3 , .overlay4 , .overlay5 , .overlay6 ,
+  .overlay7 , .overlay8 , .overlay9 , .overlay10 , .overlay11 , .overlay12,
+  .overlay13 , .overlay14 , .overlay15, .overlay16 , .overlay17 , .overlay18,
+  .overlay19 , .overlay20 , .overlay21
+  {
     opacity: 0.5;z-index: 1;
     transition: 1s ease-in-out;z-index: 1;
     
@@ -127,7 +164,7 @@ img{
     color: blue;
 }
 .container2:hover .overlay2{
-    opacity: .9;color: blue;z-index: 1;
+    opacity: .9;color:red;z-index: 1;
     transform: scale(1.3);
 }
 .container3:hover .overlay3{
@@ -135,11 +172,118 @@ img{
     transform: scale(1.3);
 }
 
-.container1:hover .img{
-    opacity: 0.2;;color: blue;
-    transition: 1s ease-in-out;
+.container4:hover .overlay4{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
 }
+.container5:hover .overlay5{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container6:hover .overlay6{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container7:hover .overlay7{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container8:hover .overlay8{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container9:hover .overlay9{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container10:hover .overlay10{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container11:hover .overlay11{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container12:hover .overlay12{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container13:hover .overlay13{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container14:hover .overlay14{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container15:hover .overlay15{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container16:hover .overlay16{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container17:hover .overlay17{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container18:hover .overlay18{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container19:hover .overlay19{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container20:hover .overlay20{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+.container21:hover .overlay21{
+    opacity: .9;color: blue;z-index: 1;
+    transform: scale(1.3);
+}
+
+.container1:hover .img{opacity: 0.2;;color: blue;
+transition: 1s ease-in-out;}
 .container2:hover .img{opacity: 0.2;color: blue;
-    transition: 1s ease-in-out;}
+transition: 1s ease-in-out;}
 .container3:hover .img{opacity: 0.2;color: blue;
+transition: 1s ease-in-out;}
+.container4:hover .img{opacity: 0.2;color: blue;
+transition: 1s ease-in-out;}
+.container5:hover .img{opacity: 0.2;color: blue;
+transition: 1s ease-in-out;}
+.container6:hover .img{opacity: 0.2;color: blue;
+transition: 1s ease-in-out;}                    
+.container7:hover .img{opacity: 0.2;color: blue;
+ transition: 1s ease-in-out;}   
+.container8:hover .img{opacity: 0.2;color: blue;
+  transition: 1s ease-in-out;}   
+.container9:hover .img{opacity: 0.2;color: blue;
+transition: 1s ease-in-out;}               
+.container10:hover .img{opacity: 0.2;color: blue;
+ transition: 1s ease-in-out;}               
+ .container11:hover .img{opacity: 0.2;color: blue;
+transition: 1s ease-in-out;}    
+.container12:hover .img{opacity: 0.2;color: blue;
+    transition: 1s ease-in-out;}   
+ .container13:hover .img{opacity: 0.2;;color: blue;
+  transition: 1s ease-in-out;}
+ .container14:hover .img{opacity: 0.2;color: blue;
+ transition: 1s ease-in-out;}
+.container15:hover .img{opacity: 0.2;color: blue;
+ transition: 1s ease-in-out;} 
+ .container16:hover .img{opacity: 0.2;;color: blue;
     transition: 1s ease-in-out;}
+    .container17:hover .img{opacity: 0.2;color: blue;
+    transition: 1s ease-in-out;}
+    .container18:hover .img{opacity: 0.2;color: blue;
+    transition: 1s ease-in-out;}
+    .container19:hover .img{opacity: 0.2;color: blue;
+    transition: 1s ease-in-out;}
+    .container20:hover .img{opacity: 0.2;color: blue;
+    transition: 1s ease-in-out;}
+    .container21:hover .img{opacity: 0.2;color: blue;
+    transition: 1s ease-in-out;}    
