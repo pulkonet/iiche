@@ -43,6 +43,7 @@ body {
     color: inherit;
 }
 .h4left a:link{color: honeydew;}
+.h4right a:link{color: honeydew;}
 .h4left , .h4right{
     color: aqua;
     transition: transform 1s ease;
