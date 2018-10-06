@@ -315,3 +315,17 @@ transition: 1s ease-in-out;}
     transition: 1s ease-in-out;}
     .container21:hover .img{opacity: 0.2;color: blue;
     transition: 1s ease-in-out;}    
+
+    #team-footer{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(255, 139, 44);
+        color: white;
+        font-size: 25px;
+    }
+    #team-footer a:hover{
+        color: rgb(182, 13, 182);
+    }
+    #team-footer i:hover{
+        color: rgb(182, 13, 182);
+    }
