@@ -10,6 +10,7 @@ body {
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+@media only :-webkit-full-screen and (max-width:500px){overflow-x: hidden;}
 
 .members{
     
@@ -86,9 +87,9 @@ img{
     border-radius: 50%;
 }
 .faculty{
-  padding-top: 50px;background-color: rgb(247, 185, 255);
+  padding-top: 50px;background-color: rgb(255, 253, 255);
 
-  border: 2px solid yellowgreen;
+  border: 5px solid yellowgreen;
 }
 
  .faculty img{
@@ -96,9 +97,9 @@ img{
     margin-right: auto;
     margin-left: 37%;
     width: 25%;
-    box-shadow: 5px 5px 2px 2px white;
-    border: 5px solid blueviolet;
-    
+    box-shadow: 5px 5px 2px 2px rgb(252, 92, 92);
+    border: 2px solid rgb(133, 34, 255);
+    justify-content:center;
 }
 .container{
     width: 100%;
@@ -139,8 +140,11 @@ img{
     text-decoration: none;
 }
 .students{
-    margin: 10px;
-    margin-left: 100px;
+   // margin: 10px;
+    //margin-left: 100px;
+    margin:auto;
+    padding:auto;margin-right:auto;
+    margin-left:40px;
 }
 .students h2{
     text-align: center;
@@ -155,7 +159,8 @@ img{
  .container19 , .container20 , .container21
  {
     display: inline-block;
-    padding: 20px;margin: 50px;margin-top: 10px;
+    padding:2%;
+    margin: auto;margin-top: 10px;
 }
 
 
@@ -323,9 +328,32 @@ transition: 1s ease-in-out;}
         color: white;
         font-size: 25px;
     }
+    @media only screen and (max-width:500px){
+        width:100%;
+    }
     #team-footer a:hover{
         color: rgb(182, 13, 182);
     }
-    #team-footer i:hover{
-        color: rgb(182, 13, 182);
+    
+    @media only screen and (max-width:500px){
+        #team-footer{
+            padding: 5px;font-size: 10px;
+        }
+        #nav-bar{
+            font-size: 15px;
+            height:50px;
+        }
+        .faculty img{
+           // width: 50px; 
+            margin-left: 15%;
+            width: 65%;
+            height: 60%;
+        }
+        img {
+            height: 300px;width: 300px;
+        }
+        .h4left , .h4right{
+            color: aqua;font-size: 10px;
+            
+        }
     }
